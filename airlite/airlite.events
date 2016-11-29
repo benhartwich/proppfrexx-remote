@@ -202,9 +202,9 @@
       <add key="OnMODStreamConnected" value="" />
       <add key="OnMODStreamNotConnected" value="" />
       <add key="OnMODStreamWaiting" value="" />
-      <add key="OnMODStreamPlaying" value="EXEC_SEND_DRAIRLITE_REMOTEON 4|1" />
+      <add key="OnMODStreamPlaying" value="EXEC_SEND_DRAIRLITE_REMOTEON 7|1&#xD;&#xA;MIXER_OUTPUT_MUTE_OFF CW" />
       <add key="OnMODStreamPaused" value="" />
-      <add key="OnMODStreamStopped" value="" />
+      <add key="OnMODStreamStopped" value="MIXER_OUTPUT_MUTE_ON CW&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 7|0" />
       <add key="OnMODStreamClosed" value="" />
       <add key="OnSTANDBYLoad" value="" />
       <add key="OnSTANDBYPlay" value="" />

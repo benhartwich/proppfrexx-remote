@@ -6,10 +6,10 @@ Before you start please fully backup your current settings!
 Files:
 - airlite-config-preset: Load this preset at the airlite configuration manager
 - airlite.events: Load this events file at the general settings => Events/Commands
-- airlite.mixer: ProppFrexx Mixer and Routing for Airlite
-- Default.drl: GPIO Remote Mapping for Airlite
+- airlite.mixer: ProppFrexx Mixer and Routing for Airlite (C:\Users\YOUR-USERNAME\AppData\Roaming\radio42\ProppFrexx ONAIR\4.0)
+- Default.drl: GPIO Remote Mapping for Airlite (C:\Users\YOUR-USERNAME\AppData\Roaming\radio42\ProppFrexx GPIOClient\4.0)
 
-How is the Airlite configured with this sample?
+How is the Airlite configured in this sample?
 Channel 1-3: Mic
 Channel 4: Player A 
 Channel 5: Player B

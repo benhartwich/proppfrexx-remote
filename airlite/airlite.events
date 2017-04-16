@@ -7,7 +7,7 @@
   </configSections>
   <ProppFrexx>
     <EVENT>
-      <add key="OnApplicationStartup" value="" />
+      <add key="OnApplicationStartup" value="EXEC_SEND_DRAIRLITE_SETLED 256|2" />
       <add key="OnApplicationShutdown" value="" />
       <add key="OnAir" value="" />
       <add key="OffAir" value="" />

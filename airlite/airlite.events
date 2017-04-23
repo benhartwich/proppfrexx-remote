@@ -7,7 +7,7 @@
   </configSections>
   <ProppFrexx>
     <EVENT>
-      <add key="OnApplicationStartup" value="EXEC_SEND_DRAIRLITE_SETLED 256|2" />
+      <add key="OnApplicationStartup" value="" />
       <add key="OnApplicationShutdown" value="" />
       <add key="OnAir" value="" />
       <add key="OffAir" value="" />
@@ -229,7 +229,7 @@
       <add key="OnVellemanStopped" value="" />
       <add key="OnDRAirenceStarted" value="" />
       <add key="OnDRAirenceStopped" value="" />
-      <add key="OnDRAirliteStarted" value="" />
+      <add key="OnDRAirliteStarted" value="EXEC_SEND_DRAIRLITE_SETLED 256|2" />
       <add key="OnDRAirliteStopped" value="" />
       <add key="OnGPIOServiceStarted" value="" />
       <add key="OnGPIOServiceStopped" value="" />

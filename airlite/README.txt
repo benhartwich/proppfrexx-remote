@@ -28,4 +28,6 @@ Installation:
 2) Check your mixer settings and add the correct usb channels of the airlite to your single in- and outputs.
 3) Restart ProppFrexx.
 
+Update:
+Because of an incompatibility it is not possible to send back Autoplay On / Off action from ProppFrexx to Airlite. If ProppFrexx turns Autoplay off, you have to manually exit the nonstop mode at Airlite. Only the way Nonstop Mode on / off => Autoplay On / off in ProppFrexx is working.
 

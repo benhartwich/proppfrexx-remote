@@ -7,7 +7,7 @@
   </configSections>
   <ProppFrexx>
     <EVENT>
-      <add key="OnApplicationStartup" value="EXEC_SEND_DRAIRLITE_SETLED 256|2" />
+      <add key="OnApplicationStartup" value="" />
       <add key="OnApplicationShutdown" value="" />
       <add key="OnAir" value="" />
       <add key="OffAir" value="" />
@@ -34,7 +34,7 @@
       <add key="OnManualOperationOFF" value="" />
       <add key="OnVoiceTrackingOpen" value="" />
       <add key="OnVoiceTrackingClose" value="" />
-      <add key="OnPlaylistOpened" value="" />
+      <add key="OnPlaylistOpened" value="EXEC_SEND_HTTP_POST ||http://postdata.benjaminhartwich.de/test.php|artist=${cpltrackartistcurrent}&amp;title=${cpltracktitlecurrent}" />
       <add key="OnPlaylistClosed" value="" />
       <add key="OnPlaylistChanged" value="" />
       <add key="OnTrackLoad" value="" />
@@ -48,8 +48,8 @@
       <add key="OnTrackAdded" value="" />
       <add key="OnCurrentTrackChanged" value="" />
       <add key="OnTimecode" value="" />
-      <add key="OnAutoPlayON" value="EXEC_SEND_DRAIRLITE_REMOTENONSTOP 1" />
-      <add key="OnAutoPlayOFF" value="EXEC_SEND_DRAIRLITE_REMOTENONSTOP 0" />
+      <add key="OnAutoPlayON" value="" />
+      <add key="OnAutoPlayOFF" value="" />
       <add key="OnUseFadingON" value="" />
       <add key="OnUseFadingOFF" value="" />
       <add key="OnAutoLoadON" value="" />
@@ -61,17 +61,17 @@
       <add key="OnDJALoad" value="" />
       <add key="OnDJAPlay" value="EXEC_SEND_DRAIRLITE_SETTRACKSTATE 4|1&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 4|1" />
       <add key="OnDJAPause" value="" />
-      <add key="OnDJAStop" value="SLEEP 500&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 4|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 4|0" />
+      <add key="OnDJAStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 4|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 4|0" />
       <add key="OnDJAEject" value="" />
       <add key="OnDJBLoad" value="" />
       <add key="OnDJBPlay" value="EXEC_SEND_DRAIRLITE_SETTRACKSTATE 5|1&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
       <add key="OnDJBPause" value="" />
-      <add key="OnDJBStop" value="SLEEP 500&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 5|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 5|0" />
+      <add key="OnDJBStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 5|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 5|0" />
       <add key="OnDJBEject" value="" />
       <add key="OnDJCLoad" value="" />
       <add key="OnDJCPlay" value="EXEC_SEND_DRAIRLITE_SETTRACKSTATE 6|1&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 6|1" />
       <add key="OnDJCPause" value="" />
-      <add key="OnDJCStop" value="SLEEP 500&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 6|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 6|0" />
+      <add key="OnDJCStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 6|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 6|0" />
       <add key="OnDJCEject" value="" />
       <add key="OnDJDLoad" value="" />
       <add key="OnDJDPlay" value="" />
@@ -145,7 +145,7 @@
       <add key="OnCartwall2Looped" value="" />
       <add key="OnCartwall2Changed" value="" />
       <add key="OnCartwall1AnyCartStarted" value="EXEC_SEND_DRAIRLITE_REMOTEON 7|1&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETLED ${cartid}|1" />
-      <add key="OnCartwall1AnyCartEnded" value="SLEEP 500&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 7|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETLED ${cartid}|2" />
+      <add key="OnCartwall1AnyCartEnded" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 7|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETLED ${cartid}|2" />
       <add key="OnCartwall2AnyCartStarted" value="" />
       <add key="OnCartwall2AnyCartEnded" value="" />
       <add key="OnOutputON" value="" />
@@ -191,13 +191,13 @@
       <add key="OnOverlayDelayed" value="" />
       <add key="OnOverlayPlayed" value="EXEC_SEND_DRAIRLITE_REMOTEON 7|1&#xD;&#xA;MIXER_OUTPUT_MUTE_OFF CW" />
       <add key="OnOverlayTrackPlay" value="" />
-      <add key="OnOverlayStopped" value="SLEEP 500&#xD;&#xA;MIXER_OUTPUT_MUTE_ON CW&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 7|0" />
+      <add key="OnOverlayStopped" value="SLEEP 100&#xD;&#xA;MIXER_OUTPUT_MUTE_ON CW&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 7|0" />
       <add key="OnOverlayClosed" value="" />
       <add key="OnProgramImported" value="" />
       <add key="OnOverlayImported" value="" />
       <add key="OnStreamingStarted" value="" />
       <add key="OnStreamingStopped" value="" />
-      <add key="OnStreamingSongTitleChanged" value="" />
+      <add key="OnStreamingSongTitleChanged" />
       <add key="OnMODStreamShown" value="" />
       <add key="OnMODStreamConnected" value="" />
       <add key="OnMODStreamNotConnected" value="" />
@@ -229,10 +229,14 @@
       <add key="OnVellemanStopped" value="" />
       <add key="OnDRAirenceStarted" value="" />
       <add key="OnDRAirenceStopped" value="" />
-      <add key="OnDRAirliteStarted" value="" />
+      <add key="OnDRAirliteStarted" value="EXEC_SEND_DRAIRLITE_SETLED 256|2" />
       <add key="OnDRAirliteStopped" value="" />
       <add key="OnGPIOServiceStarted" value="" />
       <add key="OnGPIOServiceStopped" value="" />
+      <add key="OnEmberStarted" value="" />
+      <add key="OnEmberStopped" value="" />
+      <add key="OnLivewireStarted" value="" />
+      <add key="OnLivewireStopped" value="" />
     </EVENT>
   </ProppFrexx>
 </configuration>

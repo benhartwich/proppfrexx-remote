@@ -34,7 +34,7 @@
       <add key="OnManualOperationOFF" value="" />
       <add key="OnVoiceTrackingOpen" value="" />
       <add key="OnVoiceTrackingClose" value="" />
-      <add key="OnPlaylistOpened" value="EXEC_SEND_HTTP_POST ||http://postdata.benjaminhartwich.de/test.php|artist=${cpltrackartistcurrent}&amp;title=${cpltracktitlecurrent}" />
+      <add key="OnPlaylistOpened" value="" />
       <add key="OnPlaylistClosed" value="" />
       <add key="OnPlaylistChanged" value="" />
       <add key="OnTrackLoad" value="" />

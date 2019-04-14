@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="ProppFrexx">
+      <section name="DRAIRENCEMAP" type="System.Configuration.NameValueSectionHandler, System, Culture=neutral, Custom=null" />
+    </sectionGroup>
+  </configSections>
+  <ProppFrexx>
+    <DRAIRENCEMAP>
+      <add key="0" value="27|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAYPAUSENOFADE_A" />
+      <add key="1" value="30|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAYPAUSENOFADE_B" />
+      <add key="2" value="30|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_B" />
+      <add key="3" value="27|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_A" />
+      <add key="4" value="29|1|PLS_CURRENT_PLAYER_A_PFL" />
+      <add key="5" value="29|0|PLS_CURRENT_PFL_STOP" />
+      <add key="6" value="32|0|PLS_CURRENT_PFL_STOP" />
+      <add key="7" value="32|1|PLS_CURRENT_PLAYER_B_PFL" />
+      <add key="8" value="29|1|PLS_CURRENT_PLAYER_A_PFL" />
+      <add key="9" value="29|0|PLS_CURRENT_PFL_STOP" />
+      <add key="10" value="32|0|PLS_CURRENT_PFL_STOP" />
+      <add key="11" value="16|0|CW1_PLAY_CART_16" />
+      <add key="12" value="15|0|CW1_PLAY_CART_8" />
+      <add key="13" value="14|0|CW1_PLAY_CART_15" />
+      <add key="14" value="13|0|CW1_PLAY_CART_7" />
+      <add key="15" value="12|0|CW1_PLAY_CART_14" />
+      <add key="16" value="11|0|CW1_PLAY_CART_6" />
+      <add key="17" value="10|0|CW1_PLAY_CART_13" />
+      <add key="18" value="9|0|CW1_PLAY_CART_5" />
+      <add key="19" value="8|0|CW1_PLAY_CART_12" />
+      <add key="20" value="7|0|CW1_PLAY_CART_4" />
+      <add key="21" value="6|0|CW1_PLAY_CART_11" />
+      <add key="22" value="5|0|CW1_PLAY_CART_3" />
+      <add key="23" value="4|0|CW1_PLAY_CART_10" />
+      <add key="24" value="3|0|CW1_PLAY_CART_2" />
+      <add key="25" value="2|0|CW1_PLAY_CART_9" />
+      <add key="26" value="1|0|CW1_PLAY_CART_1" />
+      <add key="27" value="33|0|CW1_STOP_ALL" />
+    </DRAIRENCEMAP>
+  </ProppFrexx>
+</configuration>

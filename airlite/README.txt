@@ -16,7 +16,7 @@ Channel 5: Player B
 Channel 6: Player C
 Channel 7: Cartwall and PFL Player and Overlay Player
 Channel 8: VoIP / Skype
-First row of control buttons 1-8: Cartwall 1 (start / stop 1-8 entries)
+Both rows of control buttons 1-16: Cartwall 1 (start / stop 1-16 entries)
 
 Local soundcard: Monitor signal (same as PFL).
 

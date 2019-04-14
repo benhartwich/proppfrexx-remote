@@ -1,10 +1,14 @@
 # ProppFrexx Remote Configuration Examples
-ProppFrexx Sample Remotes for different Broadcast mixers. Current: only D&R Airlite.
+ProppFrexx Sample Remotes for different Broadcast mixers.
 
 Please find the installation instruction at the readmes at the single folders.
+
+Current Configs:
+- Airence (without Extension Unit)
+- Airlite 1: with 3 DJ-Players
+- Airlite 2: with 2 DJ-Players
 
 IMPORTANT!
 Before you start please fully backup your current settings!
 
-Please use the specific branch for your configuration to stay up to date. Every configuration set has an own branch!
 

@@ -61,17 +61,17 @@
       <add key="OnDJALoad" value="" />
       <add key="OnDJAPlay" value="EXEC_SEND_DRAIRLITE_SETTRACKSTATE 4|1&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 4|1" />
       <add key="OnDJAPause" value="" />
-      <add key="OnDJAStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 4|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 4|0" />
+      <add key="OnDJAStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 4|0" />
       <add key="OnDJAEject" value="" />
       <add key="OnDJBLoad" value="" />
       <add key="OnDJBPlay" value="EXEC_SEND_DRAIRLITE_SETTRACKSTATE 5|1&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
       <add key="OnDJBPause" value="" />
-      <add key="OnDJBStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 5|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 5|0" />
+      <add key="OnDJBStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 5|0" />
       <add key="OnDJBEject" value="" />
       <add key="OnDJCLoad" value="" />
       <add key="OnDJCPlay" value="EXEC_SEND_DRAIRLITE_SETTRACKSTATE 6|1&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 6|1" />
       <add key="OnDJCPause" value="" />
-      <add key="OnDJCStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 6|0&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 6|0" />
+      <add key="OnDJCStop" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETTRACKSTATE 6|0" />
       <add key="OnDJCEject" value="" />
       <add key="OnDJDLoad" value="" />
       <add key="OnDJDPlay" value="" />

@@ -7,7 +7,7 @@
   </configSections>
   <ProppFrexx>
     <EVENT>
-      <add key="OnApplicationStartup" value="" />
+      <add key="OnApplicationStartup" value="EXEC_SEND_DRAIRENCE_SETLED 255|2" />
       <add key="OnApplicationShutdown" value="" />
       <add key="OnAir" value="" />
       <add key="OffAir" value="" />
@@ -137,7 +137,7 @@
       <add key="OnUser49" value="" />
       <add key="OnUser50" value="" />
       <add key="OnCartwall1Play" value="EXEC_COMMAND EXEC_SEND_DRAIRENCE_SETLED *[TOINT:{${cartid}}:{vert}:{8}]|1" />
-      <add key="OnCartwall1Pause" value="EXEC_COMMAND EXEC_SEND_DRAIRENCE_SETLED *[TOINT:{${cartid}}:{vert}:{8}]|2" />
+      <add key="OnCartwall1Pause" value="EXEC_COMMAND EXEC_SEND_DRAIRENCE_SETLED *[TOINT:{${cartid}}:{vert}:{8}]|2&#xD;&#xA;CW1_STOPONLY_CART *[TOINT:{${cartid}}:{vert}:{8}]"/>
       <add key="OnCartwall1Selected" value="" />
       <add key="OnCartwall1Looped" value="" />
       <add key="OnCartwall1Changed" value="" />

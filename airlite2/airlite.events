@@ -147,7 +147,7 @@
       <add key="OnCartwall2Looped" value="" />
       <add key="OnCartwall2Changed" value="" />
       <add key="OnCartwall1AnyCartStarted" value="EXEC_SEND_DRAIRLITE_REMOTEON 6|1&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETLED ${cartid}|1" />
-      <add key="OnCartwall1AnyCartEnded" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETLED ${cartid}|2" />
+      <add key="OnCartwall1AnyCartEnded" value="SLEEP 100&#xD;&#xA;EXEC_SEND_DRAIRLITE_SETLED ${cartid}|2&#xD;&#xA;CW1_STOPONLY_CART ${cartid}" />
       <add key="OnCartwall2AnyCartStarted" value="" />
       <add key="OnCartwall2AnyCartEnded" value="" />
       <add key="OnOutputON" value="" />

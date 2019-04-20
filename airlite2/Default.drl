@@ -35,8 +35,6 @@
       <add key="25" value="97|3|1|MIXER_OUTPUT_MUTE_ON PFL" />
       <add key="26" value="97|2|0|MIXER_OUTPUT_MUTE_OFF PFL" />
       <add key="27" value="97|3|0|MIXER_OUTPUT_MUTE_OFF PFL" />
-      <add key="28" value="104|7|0|CW1_STOP_ALL ${_NL}MIXER_OUTPUT_MUTE_ON CW" />
-      <add key="29" value="106|7|0|CW1_STOP_ALL${_NL}MIXER_OUTPUT_MUTE_ON CW" />
       <add key="30" value="34|1|1|CW1_PLAY_CART_1${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 7|1" />
       <add key="31" value="34|2|1|CW1_PLAY_CART_2${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 7|1" />
       <add key="32" value="34|3|1|CW1_PLAY_CART_3${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 7|1" />

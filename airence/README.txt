@@ -26,3 +26,5 @@ Installation:
 1) Import all files at the right direction.
 2) Check your mixer settings and add the correct usb channels of the airence to your single in- and outputs.
 3) Restart ProppFrexx.
+
+IMPORTANT: Please uncheck the checkbox Auto Unload at the General Settings => Playlist Settings (at the top at Playlist Defaults). 

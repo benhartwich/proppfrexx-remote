@@ -7,8 +7,8 @@
   </configSections>
   <ProppFrexx>
     <DRAIRENCEMAP>
-      <add key="0" value="27|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAYPAUSENOFADE_A" />
-      <add key="1" value="30|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAYPAUSENOFADE_B" />
+      <add key="0" value="27|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_A" />
+      <add key="1" value="30|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_B" />
       <add key="2" value="30|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_B" />
       <add key="3" value="27|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_A" />
       <add key="4" value="29|1|PLS_CURRENT_PLAYER_A_PFL" />

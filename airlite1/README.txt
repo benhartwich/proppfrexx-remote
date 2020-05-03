@@ -26,7 +26,8 @@ USB 3 Output (Voice Track signal): In 2 at ProppFrexx for voice tracking and pre
 Installation:
 1) Import all files at the right direction.
 2) Check your mixer settings and add the correct usb channels of the airlite to your single in- and outputs.
-3) Restart ProppFrexx.
+3) At the GPIO client set the following ports (unless you´ve have the D&R airlite ports): Receive Port: 19549 and Send Port 19551 at the section d&r mixer at the GPIO Client. Remote host is 127.0.0.1 like set. 
+4) Restart ProppFrexx.
 
 Update:
 Because of an incompatibility it is not possible to send back Autoplay On / Off action from ProppFrexx to Airlite. If ProppFrexx turns Autoplay off, you have to manually exit the nonstop mode at Airlite. Only the way Nonstop Mode on / off => Autoplay On / off in ProppFrexx is working.

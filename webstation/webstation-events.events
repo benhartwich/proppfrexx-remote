@@ -281,8 +281,8 @@
       <add key="OnPFLShow" value="" />
       <add key="OnPFLPlay" value="" />
       <add key="OnPFLHide" value="" />
-      <add key="OnPFLOn" value="MIXER_OUTPUT_MUTE_OFF PFL" />
-      <add key="OnPFLOff" value="MIXER_OUTPUT_MUTE_ON PFL" />
+      <add key="OnPFLOn" value="" />
+      <add key="OnPFLOff" value="" />
       <add key="OnSchedulerStart" value="" />
       <add key="OnSchedulerStop" value="" />
       <add key="OnScriptStarting" value="" />
@@ -293,9 +293,9 @@
       <add key="OnScriptLooped" value="" />
       <add key="OnOverlayShown" value="" />
       <add key="OnOverlayDelayed" value="" />
-      <add key="OnOverlayPlayed" value="EXEC_SEND_DRAIRLITE_REMOTEON 7|1&#xD;&#xA;MIXER_OUTPUT_MUTE_OFF CW" />
+      <add key="OnOverlayPlayed" value="" />
       <add key="OnOverlayTrackPlay" value="" />
-      <add key="OnOverlayStopped" value="SLEEP 100&#xD;&#xA;MIXER_OUTPUT_MUTE_ON CW&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 7|0" />
+      <add key="OnOverlayStopped" value="" />
       <add key="OnOverlayClosed" value="" />
       <add key="OnProgramImported" value="" />
       <add key="OnOverlayImported" value="" />
@@ -306,9 +306,9 @@
       <add key="OnMODStreamConnected" value="" />
       <add key="OnMODStreamNotConnected" value="" />
       <add key="OnMODStreamWaiting" value="" />
-      <add key="OnMODStreamPlaying" value="EXEC_SEND_DRAIRLITE_REMOTEON 7|1&#xD;&#xA;MIXER_OUTPUT_MUTE_OFF CW" />
+      <add key="OnMODStreamPlaying" value="" />
       <add key="OnMODStreamPaused" value="" />
-      <add key="OnMODStreamStopped" value="MIXER_OUTPUT_MUTE_ON CW&#xD;&#xA;EXEC_SEND_DRAIRLITE_REMOTEON 7|0" />
+      <add key="OnMODStreamStopped" value="" />
       <add key="OnMODStreamClosed" value="" />
       <add key="OnSTANDBYLoad" value="" />
       <add key="OnSTANDBYPlay" value="" />
@@ -331,7 +331,7 @@
       <add key="OnIOWarriorStopped" value="" />
       <add key="OnVellemanStarted" value="" />
       <add key="OnVellemanStopped" value="" />
-      <add key="OnDRAirenceStarted" value="EXEC_SEND_DRAIRENCE_SETLED 255|2" />
+      <add key="OnDRAirenceStarted" value="" />
       <add key="OnDRAirenceStopped" value="" />
       <add key="OnDRAirliteStarted" value="EXEC_SEND_DRAIRLITE_SETLED 256|0" />
       <add key="OnDRAirliteStopped" value="" />

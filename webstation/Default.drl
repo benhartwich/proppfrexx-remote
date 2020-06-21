@@ -8,43 +8,33 @@
   <ProppFrexx>
     <DRAirliteMAP>
       <add key="0" value="104|4|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_B" />
-      <add key="1" value="102|1|1|MIXER_OUTPUT_MUTE_ON PFL" />
-      <add key="2" value="102|1|0|MIXER_OUTPUT_MUTE_OFF PFL" />
-      <add key="3" value="101|1|1|PLS_CURRENT_AUTOPLAY_ON ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 3|1${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 4|1" />
-      <add key="4" value="101|1|0|PLS_CURRENT_AUTOPLAY_OFF" />
-      <add key="5" value="97|4|1|PLS_CURRENT_PLAYER_B_PFL ${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|1${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|0" />
-      <add key="6" value="97|4|0|PLS_CURRENT_PFL_STOP ${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|0" />
-      <add key="7" value="106|4|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_B" />
-      <add key="8" value="97|1|1|MIXER_OUTPUT_MUTE_ON PFL" />
-      <add key="9" value="97|1|0|MIXER_OUTPUT_MUTE_OFF PFL" />
-      <add key="10" value="97|2|1|MIXER_OUTPUT_MUTE_ON PFL" />
-      <add key="11" value="97|2|0|MIXER_OUTPUT_MUTE_OFF PFL" />
-      <add key="12" value="34|1|1|CW1_PLAY_CART_1 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="13" value="34|2|1|CW1_PLAY_CART_3 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="14" value="34|3|1|CW1_PLAY_CART_5 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="15" value="34|4|1|CW1_PLAY_CART_7 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="16" value="34|5|1|CW1_PLAY_CART_9 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="17" value="34|6|1|CW1_PLAY_CART_11 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="18" value="102|2|1|MIXER_OUTPUT_MUTE_ON PFL" />
-      <add key="19" value="102|2|0|MIXER_OUTPUT_MUTE_OFF PFL" />
-      <add key="20" value="111|1|1|MIXER_OUTPUT_MUTE_ON PFL${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|1${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 1|1" />
-      <add key="21" value="111|1|0|MIXER_OUTPUT_MUTE_OFF PFL${_NL}EXEC_SEND_DRAIRLITE_REMOTECUERESET" />
-      <add key="22" value="111|2|1|EXEC_SEND_DRAIRLITE_REMOTECUE 2|1" />
-      <add key="23" value="34|9|1|CW1_PLAY_CART_2 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="24" value="34|10|1|CW1_PLAY_CART_4 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="25" value="34|11|1|CW1_PLAY_CART_6 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="26" value="34|12|1|CW1_PLAY_CART_8 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="27" value="104|5|0|CW1_STOP_ALL ${_NL}MIXER_OUTPUT_MUTE_ON CW" />
-      <add key="28" value="104|3|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_A" />
-      <add key="29" value="106|3|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_A" />
-      <add key="30" value="97|3|0|PLS_CURRENT_PFL_STOP ${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|0" />
-      <add key="31" value="97|3|1|PLS_CURRENT_PLAYER_A_PFL ${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|1${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|0" />
-      <add key="32" value="104|4|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_B" />
-      <add key="33" value="104|3|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_A" />
-      <add key="34" value="106|4|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_B" />
-      <add key="35" value="106|3|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_A" />
-      <add key="36" value="34|13|1|CW1_PLAY_CART_10${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
-      <add key="37" value="34|14|1|CW1_PLAY_CART_12${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="1" value="101|1|1|PLS_CURRENT_AUTOPLAY_ON ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 3|1${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 4|1${_NL}PLS_CURRENT_AUTOUNLOAD_ON" />
+      <add key="2" value="101|1|0|PLS_CURRENT_AUTOPLAY_OFF ${_NL}PLS_CURRENT_AUTOUNLOAD_OFF" />
+      <add key="3" value="97|4|1|PLS_CURRENT_PLAYER_B_PFL ${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|1${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|0" />
+      <add key="4" value="97|4|0|PLS_CURRENT_PFL_STOP ${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|0" />
+      <add key="5" value="106|4|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_B" />
+      <add key="6" value="34|1|1|CW1_PLAY_CART_1 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="7" value="34|2|1|CW1_PLAY_CART_3 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="8" value="34|3|1|CW1_PLAY_CART_5 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="9" value="34|4|1|CW1_PLAY_CART_7 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="10" value="34|5|1|CW1_PLAY_CART_9 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="11" value="34|6|1|CW1_PLAY_CART_11 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="12" value="111|2|1|EXEC_SEND_DRAIRLITE_REMOTECUE 2|1" />
+      <add key="13" value="34|9|1|CW1_PLAY_CART_2 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="14" value="34|10|1|CW1_PLAY_CART_4 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="15" value="34|11|1|CW1_PLAY_CART_6 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="16" value="34|12|1|CW1_PLAY_CART_8 ${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="17" value="104|5|0|CW1_STOP_ALL ${_NL}MIXER_OUTPUT_MUTE_ON CW" />
+      <add key="18" value="104|3|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_A" />
+      <add key="19" value="106|3|1|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_PLAY_A" />
+      <add key="20" value="97|3|0|PLS_CURRENT_PFL_STOP ${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|0" />
+      <add key="21" value="97|3|1|PLS_CURRENT_PLAYER_A_PFL ${_NL}EXEC_SEND_DRAIRLITE_REMOTECUE 5|1${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|0" />
+      <add key="22" value="104|4|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_B" />
+      <add key="23" value="104|3|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_A" />
+      <add key="24" value="106|4|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_B" />
+      <add key="25" value="106|3|0|EXEC_COMMAND2 ${autoplay}|Equals(0)|PLS_CURRENT_EJECTNOFADE_A" />
+      <add key="26" value="34|13|1|CW1_PLAY_CART_10${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
+      <add key="27" value="34|14|1|CW1_PLAY_CART_12${_NL}EXEC_SEND_DRAIRLITE_REMOTEON 5|1" />
     </DRAirliteMAP>
   </ProppFrexx>
 </configuration>
